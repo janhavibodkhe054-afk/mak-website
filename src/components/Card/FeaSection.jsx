@@ -248,32 +248,32 @@ export default function FeaSection({ children }) {
                                 {
                                     name: "Solve Engg. problems",
                                     description:
-                                        "",
+                                        "Applying simulation tools to solve complex engineering challenges.",
                                 },
                                 {
                                     name: "Structure analysis",
                                     description:
-                                        "",
+                                        "Evaluating structural behavior under real-world loads and conditions.",
                                 },
                                 {
                                     name: "Design Optimization",
                                     description:
-                                        "",
+                                        "Improving designs for maximum performance with minimal material and cost.",
                                 },
                                 {
                                     name: "Ensure safety & efficiency",
                                     description:
-                                        "",
+                                        "“Balancing strength, efficiency, and cost for reliable engineering solutions.",
                                 },
                                 {
                                     name: "Design validation",
                                     description:
-                                        "",
+                                        "Verifying designs through simulation before physical manufacturing",
                                 },
                                 {
                                     name: "Durability evaluation",
                                     description:
-                                        "",
+                                        "Assessing fatigue and lifespan to ensure long-term product reliability",
                                 },
                             ].map((item, index) => (
                                 <div

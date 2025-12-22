@@ -357,23 +357,23 @@ export default function PrintingLayout({ children }) {
                         {[
                             {
                                 name: "Rapid prototyping",
-                                description: "",
+                                description: " Transforming ideas into tangible models quickly and efficiently.",
                             },
                             {
                                 name: "Research",
-                                description: "",
+                                description: " Advancing knowledge with precise 3D printing experiments and studies.",
                             },
                             {
                                 name: "Product exhibits",
-                                description: "",
+                                description: " Bringing product designs to life for display and evaluation.",
                             },
                             {
                                 name: "Education & Research",
-                                description: "",
+                                description: " Enhancing learning with hands-on 3D printed models.",
                             },
                             {
                                 name: "Medical applications",
-                                description: "",
+                                description: " Creating accurate anatomical models and custom medical devices.",
                             },
 
                         ].map((item, index) => (
@@ -402,19 +402,19 @@ export default function PrintingLayout({ children }) {
                             {[
                                 {
                                     name: "Cultural heritage",
-                                    description: "",
+                                    description: "Preserving history through detailed 3D replicas of monuments.",
                                 },
                                 {
                                     name: "Art & Jewellery",
-                                    description: "",
+                                    description: "Crafting intricate designs and personalized accessories with precision.",
                                 },
                                 {
                                     name: "Toys & Gifts",
-                                    description: "",
+                                    description: "Producing unique, creative, and customized items for fun and gifting.",
                                 },
                                 {
                                     name: "Apparel",
-                                    description: "",
+                                    description: "Innovating fashion with 3D printed clothing and accessories.",
                                 },
                             ].map((item, index) => (
                                 <div

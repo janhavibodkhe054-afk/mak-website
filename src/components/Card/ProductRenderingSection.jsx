@@ -333,7 +333,7 @@ export default function ProductRenderingSection() {
 
                     {/* OVERVIEW */}
                     <section id="overview" ref={overviewRef} className="space-y-12">
-                        <h2 className="text-5xl md:text-6xl text-[#1e3a8a] font-bold tracking-wide border-b pb-4">
+                        <h2 className="text-3xl text-[#1e3a8a] font-bold tracking-wide border-b pb-3 mb-6">
 
                         Overview
                     </h2>
