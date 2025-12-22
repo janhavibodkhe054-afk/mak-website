@@ -1,12 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
-import {
-  FaWhatsapp,
-  FaLinkedinIn,
-  FaInstagram,
-  FaFacebookF,
-} from "react-icons/fa";
+import { FaWhatsapp, FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
 
 export default function NavbarCyan() {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -37,7 +32,6 @@ export default function NavbarCyan() {
         : "text-gray-700 hover:text-[#062a66]"
     }`;
 
-  // Services active when URL starts with /services
   const isServicesActive = location.pathname.startsWith("/services");
 
   const services = [
@@ -182,18 +176,15 @@ export default function NavbarCyan() {
             Contact
           </NavLink>
 
-          {/* WhatsApp */}
-          <a
-            href="https://wa.me/919876543210"
-            target="_blank"
-            rel="noopener noreferrer"
+          {/* WhatsApp Button (no integration) */}
+          <button
             className="group flex items-center gap-3 px-6 py-2.5 rounded-full
               bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold
               shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
           >
             <FaWhatsapp className="text-2xl group-hover:rotate-12 transition" />
             <span>WhatsApp</span>
-          </a>
+          </button>
         </nav>
 
         {/* ================= MOBILE MENU ================= */}
