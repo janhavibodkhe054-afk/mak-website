@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Arrow bullet shape */
+.clip-arrow {
+    clip-path: polygon(0 50%, 60% 0, 100% 50%, 60% 100%);
+}
