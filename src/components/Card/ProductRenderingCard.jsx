@@ -2,23 +2,23 @@ export default function ProductRenderingCard({ children }) {
     const items = [
         {
             name: "E-Commerce",
-            description: ""
+            description: "High-quality 3D visuals that boost online product appeal and sales."
         },
         {
             name: "Interior design",
-            description: ""
+            description: "Realistic renders to visualize spaces, layouts, and finishes before execution."
         },
         {
             name: "Marketing & Advertising",
-            description: ""
+            description: "Eye-catching visuals crafted to strengthen brand communication."
         },
         {
             name: "Cataloguing ",
-            description: ""
+            description: "Consistent and detailed product images for impactful catalogs and brochures."
         },
         {
             name: "Product animation",
-            description: ""
+            description: "Dynamic animations that showcase product functionality and features clearly."
         }
     ];
 

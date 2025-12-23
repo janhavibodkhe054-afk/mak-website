@@ -22,6 +22,7 @@ import ProductRendering from "./pages/Services/ProductRendering";
 import BlogCardTwo from "./components/Blog/BlogTwo";
 import BlogCardThree from "./components/Blog/BlogThree";
 import BlogCardFour from "./components/Blog/BlogFour";
+import BlogFive from "./components/Blog/BlogFive";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -52,6 +53,7 @@ const App = () => {
         { path: "/blog/cardtwo", element: <BlogCardTwo /> },
         { path: "/blog/cardthree", element: <BlogCardThree /> },
         { path: "/blog/cardfour", element: <BlogCardFour /> },
+        { path: "/blog/cardfive", element: <BlogFive /> },
         { path: "/menu", element: <Menu /> },
         { path: "/celebratewithus", element: <CelebrateWithUs /> },
         { path: "/gallery", element: <Gallery /> },

@@ -2,26 +2,26 @@ export default function ReverseEngineeringApplicationCard({ children }) {
     const items = [
         {
             name: "Legacy part replacement",
-            description: ""
+            description: "Recreating obsolete components with improved accuracy and performance."
         },
         {
             name: "Failure analysis",
-            description: ""
+            description: "Identifying root causes of component failure to prevent future breakdowns."
 
         },
         {
             name: "Product improvement",
-            description: ""
+            description: "Enhancing design, performance, and reliability of existing products."
 
         },
         {
             name: "Competitive analysis",
-            description: ""
+            description: "Evaluating products against market standards to gain a strategic edge."
 
         },
         {
             name: "Digitalization",
-            description: ""
+            description: "Transforming physical products into smart, data-driven digital solutions."
 
         }
     ];
